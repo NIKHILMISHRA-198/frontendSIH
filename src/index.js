@@ -4,15 +4,15 @@ import App from "./App";
 import { NativeBaseProvider, extendTheme } from "native-base";
 import reportWebVitals from "./reportWebVitals";
 
-const theme = extendTheme({
-  config: {
-    initialColorMode: "dark",
-  },
-});
+// const theme = extendTheme({
+//   config: {
+//     initialColorMode: "dark",
+//   },
+// });
 
 ReactDOM.render(
   <React.StrictMode>
-    <NativeBaseProvider theme={theme}>
+    <NativeBaseProvider>
       <App />
     </NativeBaseProvider>
   </React.StrictMode>,
