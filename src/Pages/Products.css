@@ -1,0 +1,11 @@
+.paginationBox {
+    display: flex;
+    justify-content: space-between;
+    margin: 6vmax;
+  }
+  
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
